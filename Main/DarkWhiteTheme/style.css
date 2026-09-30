@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.black {
+  background-color: black;
+}
+
+#main {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 50vh;
+}
+
+.btn {
+  width: 14vw;
+  height: 7vh;
+}
