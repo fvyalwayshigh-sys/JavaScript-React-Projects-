@@ -19,11 +19,6 @@ const humidity = document.getElementById("humidity");
 const windSpeed = document.getElementById("wind-speed");
 const feelsLike = document.getElementById("feels-like");
 
-// Example of how you'll use them later:
-// weatherCard.classList.remove('hidden'); // Shows the card
-// temperature.textContent = `${data.main.temp}°C`; // Updates temp
-// weatherIcon.src = `https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`; // Updates icon
-
 searchBtn.addEventListener("click", function () {
   let cityValue = cityInput.value.trim();
   if (cityValue === "") {
